@@ -1,0 +1,154 @@
+body {
+    background-color: lightgray;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+.container {
+    background-color: aqua;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid0 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('../images/mole.jpg');
+    background-size: cover;
+}
+
+.grid1 {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 140px;
+}
+
+.grid1 div {
+    height: 20px;
+    width: 20px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.grid2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid2 div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: crimson;
+}
+
+.grid3 {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.grid3 div {
+    width: 20px;
+    height: 20px;
+}
+
+.shooter {
+    background-color: blue;
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.boom {
+    background-color: red;
+}
+
+.laser {
+    background-color: orange;
+}
+
+.grid4 {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+}
+
+.grid4 div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2,
+.c3 {
+    background-color: gray;
+}
+
+.l1,
+.l2,
+.l3 {
+    background-color: brown;
+}
+
+.l4,
+.l5 {
+    background-color: lightblue;
+}
+
+.frog {
+    background-color: green;
+}
